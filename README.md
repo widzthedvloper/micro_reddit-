@@ -1,24 +1,48 @@
-# README
+# Micro Reddit
+This project is the creation of the model base for a Reddit application.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About
+In this project, we build the models for a Reddit look-alike application with all the migrations needed.
+with three tables, comment, user, and post we got the job done by creating associations between those tables.
+- user table store user info.
+- post table store post info, with user & comments id.
+- comment table store comments info, with user & post id.
 
-Things you may want to cover:
+## Usage
+-  Clone the repo: git clone 
+- Type `rails console` to enter the rails terminal
+- Now you are ready to add users, posts, and comment as you please.
 
-* Ruby version
+## Technologies and tools
+- Ruby
+- ROR
+- SQLite3
+- VScode & CLI
 
-* System dependencies
+## Authors
 
-* Configuration
+👤 **Widzmarc Jean Nesly Phelle**
 
-* Database creation
+- GitHub: [@widzthedvloper](https://github.com/widzthedvloper)
+- Twitter: [@widzthedvloper](https://twitter.com/widzthedvloper)
+- LinkedIn: [@widzthedvloper](https://www.linkedin.com/in/widzmarc-jean-nesly-phelle-252a26129/)
 
-* Database initialization
+👤 **Luis Vinicius**
 
-* How to run the test suite
+- GitHub: [@luisvinicius09](https://github.com/luisvinicius09)
+- Twitter: [@luisvinicius09]()
+- LinkedIn: [LinkedIn](https://linkedin.com/in/luis-vinicius)
 
-* Services (job queues, cache servers, search engines, etc.)
+## 🤝 Contributing
 
-* Deployment instructions
+Contributions, issues, and feature requests are welcome!
 
-* ...
+Feel free to check the [issues page](https://github.com/abdulkhaliqdev/Tic-Tac-Toe/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](/LICENSE) licensed.
